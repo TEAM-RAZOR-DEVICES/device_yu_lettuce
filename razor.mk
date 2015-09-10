@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2014 The Team-Razor Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,10 +14,10 @@
 
 $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common team-Razor stuff.
+$(call inherit-product, vendor/razor/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_lettuce
+PRODUCT_NAME := razor_lettuce
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := lettuce
 
